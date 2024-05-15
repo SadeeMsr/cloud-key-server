@@ -1,0 +1,15 @@
+GET:
+  http://localhost:8080/users/get-keys-by-uname/uname11
+
+GET:
+  http://localhost:8080/users/get-keys-by-uid/12546sfrr41
+
+POST:
+  http://localhost:8080/users/create-user-keys
+
+  req-body:
+   {
+    "uid": "12546sfrr41",
+    "u_name": "uname11",
+    "key": "7478d4fsafdg744fdghdfhyyhjtyhj"
+   }
